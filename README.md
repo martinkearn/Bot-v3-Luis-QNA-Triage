@@ -1,7 +1,9 @@
 # Bot Luis QnA Triage
-It is very common for bots to need QnA Maker as well as a bunch of several other services which are generally supported with natural language by Luis.
+It is very common for bots to need [QnA Maker](https://www.qnamaker.ai/) as well as [Luis](https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/) to support both natural language and more specific FAQs.
 
-This sample helps triage message between Luis and QnA maker based on the confidence scores from those services.
+An example might be a customer service bot that uses QnA Maker to answer general enquiries where everyone gets the same answer (i.e. opening hours, telephone number etc) and Luis to handle more specific account based enquiries (i.e. "i want to change my password").
+
+This sample triages messages from the user between Luis and QnA maker and show the appropriate response based on the confidence score. In this example, the assumption is made that if Luis returns 70% confidence or higher, then the Luis result is used, otherwise the QNA result is used.
 
 Keys have been left in the source code deliberately so the solution and associated models can be used straight away. If you fork this repository, please use your own keys and models.
 
