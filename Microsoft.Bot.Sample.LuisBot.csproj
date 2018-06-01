@@ -183,8 +183,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Components\LuisComponent.cs" />
+    <Compile Include="Components\QNAComponent.cs" />
     <Compile Include="Dialogs\BasicLuisDialog.cs" />
     <Compile Include="Controllers\MessagesController.cs" />
+    <Compile Include="Dialogs\RootDialog.cs" />
+    <Compile Include="DTOs\LuisResponse.cs" />
+    <Compile Include="DTOs\QnaResponse.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
