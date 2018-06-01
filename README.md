@@ -23,3 +23,6 @@ The QnA maker service has been manually created and has been trained with the FA
 The following messages should be triaged and answered by QNA Maker:
 * "Is the QnA Maker Service free?"
 * "What is the roadmap of the QnA Maker?"
+
+## Credits
+This sample derives from some work [Toby Bradshaw](https://github.com/tobybrad) and [Martin Kearn](https://github.com/martinkearn) did with a customer and was genericsed by Martin Kearn.
