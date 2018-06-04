@@ -5,6 +5,8 @@ An example might be a customer service bot that uses QnA Maker to answer general
 
 This sample triages messages from the user between Luis and QnA maker and show the appropriate response based on the confidence score. In this example, the assumption is made that if Luis returns 70% confidence or higher, then the Luis result is used, otherwise the QNA result is used.
 
+Read more about the problem space and background for this sample at https://blogs.msdn.microsoft.com/martinkearn/2018/06/04/bot-framework-triage-between-luis-and-qna-maker/
+
 Keys have been left in the source code deliberately so the solution and associated models can be used straight away. If you fork this repository, please use your own keys and models.
 
 ## Luis Configuration
