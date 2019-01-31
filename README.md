@@ -1,3 +1,5 @@
+# This content is out of date. Please look to use the [Dispatcher](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=csharp) to triage between Luis and QNA
+
 # Bot Luis QnA Triage
 It is very common for bots to need [QnA Maker](https://www.qnamaker.ai/) as well as [Luis](https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/) to support both natural language and more specific FAQs.
 
