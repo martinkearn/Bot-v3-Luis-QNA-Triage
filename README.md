@@ -12,7 +12,7 @@ Read more about the problem space and background for this sample at https://blog
 Keys have been left in the source code deliberately so the solution and associated models can be used straight away. If you fork this repository, please use your own keys and models.
 
 ## Luis Configuration
-This project started an an Azure Bot Service (C# with Language Understanding template) and so the Luis model was automatically created as part of this process.
+This project started an Azure Bot Service (C# with Language Understanding template) and so the Luis model was automatically created as part of this process.
 
 The default Luis model supports several default intents such as 'Help', 'Cancel' etc. 
 
